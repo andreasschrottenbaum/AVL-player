@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+audio,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+#wrapper {
+  position: relative;
+  color: white;
+}
+
+#player {
+  position: absolute;
+  inset: 0;
+  background: #5007;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
