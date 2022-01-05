@@ -23,3 +23,9 @@ npm run build
 ```shell
 npm run test
 ```
+
+### Create Docs
+
+```shell
+npm run doc
+```
