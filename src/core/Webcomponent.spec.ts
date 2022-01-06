@@ -1,4 +1,4 @@
-import { Avl } from './index'
+import { Avl } from './Webcomponent'
 
 describe('General Construction of <avl-player>', () => {
   test('<avl-player> must be defined', () => {

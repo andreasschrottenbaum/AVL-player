@@ -1,8 +1,8 @@
-import { Player } from './src/index'
-import styles from './src/assets/main.styles.scss'
+import { Player } from '@/index'
+import styles from '@/assets/main.styles.scss'
 
-import videoUI from './src/views/videoUI'
-import audioUI from './src/views/audioUI'
+import videoUI from '@/views/videoUI'
+import audioUI from '@/views/audioUI'
 
 export class Avl extends HTMLElement {
   //@todo: maybe set the uplying layer (play/pause/etc) to somewhere else

@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'development',
-  entry: './index.ts',
+  entry: './src/core/Webcomponent.ts',
   module: {
     rules: [
       {
