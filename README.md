@@ -29,3 +29,9 @@ npm run test
 ```shell
 npm run doc
 ```
+
+#### ToDos:
+
+- [ ] implement an abstract class for managing different libraries (HLS, shaka, etc)
+- [ ] Re-Structure the implementation for multiple builds (WebComponent, JS-Library, NPM Module)
+- [ ] shift the complete CSS/templating to the player

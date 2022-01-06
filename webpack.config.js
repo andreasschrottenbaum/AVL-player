@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   mode: 'development',
   entry: './index.ts',
@@ -33,6 +35,9 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['.js', '.ts'],
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
   }
 }
